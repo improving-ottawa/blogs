@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/bookworm/"
-title = "Bookworm - HUGO Blog Theme"
+baseURL = "https://blogs.yoppworks.com"
+title = "Yoppworks Blogs"
 theme = "bookworm"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "UTC"
@@ -20,7 +20,7 @@ hasCJKLanguage = true #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Ko
 [module]
 [module.hugoVersion]
 extended = true
-min = "0.90.1"
+min = "0.100.1"
 
 ############################# Outputs ##############################
 [outputs]

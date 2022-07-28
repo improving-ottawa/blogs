@@ -7,42 +7,47 @@ draft: false
 #caption
 caption:
   enable: true
-  title: "I’m Henara Colii, A content writer based in LDN, currently at Bookworm."
+  title: "Welcome to Yoppworks Blogs"
 
 # social
 social:
   enable: true
   social_links:
-  - link: "https://www.facebook.com/"
+  - link: "https://www.facebook.com/yoppworks"
     icon: "fab fa-facebook-f"
 
-  - link: "https://www.twitter.com/"
+  - link: "https://www.twitter.com/YoppWorks"
     icon: "fab fa-twitter"
     
-  - link: "https://www.linkedin.com/"
-    icon: "fab fa-instagram"
+  - link: "https://www.linkedin.com/company/improving-enterprises/"
+    icon: "fa-brands fa-linked-in"
     
-  - link: "https://www.github.com/"
-    icon: "fab fa-linkedin-in"
+  - link: "https://www.github.com/improving-ottawa"
+    icon: "fa-brands fa-github"
 
 # what_i_do
 what_i_do:
-  title: "What I Do"
+  title: "Technical Blogs"
   enable: true
   item:
-  - title: "Content Writing"
+  - title: "That's What We Do"
     icon: "fas fa-pen-nib"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
-    
-  - title: "Photography"
-    icon: "fas fa-camera"
-    description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
-    
-  - title: "Web Research"
-    icon: "fas fa-snowflake"
-    description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
- 
+    description: "This is where individual technical writers maintain their blogs related to Improving-Ottawa's business"
+      
 ---
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+YoppWorks, an Improving company, is the leading consulting organization
+that helps Enterprises rethink how they build software to remain 
+competitive, relevant and capitalize on market opportunities. We are 
+industry-recognized experts in the 
+[Scala programming language](https://www.scala-lang.org/), the open 
+source [Akka Platform](https://akka.io),  containerized cloud native 
+environments, and the application of the Reactive Architecture to large 
+scale systems.  We were founded in 2016 and have been empowering enterprise
+innovation, digital transformations, and reactive architectures ever since!
+
+## Links
+
+[Meet Our Yoppworks Team](https://yoppworks.com/about-us/)
+
+[Meet Our Parent Company](https://improving.com/)

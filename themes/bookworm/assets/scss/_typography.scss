@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-primary;
-  font-weight: 100;
+  font-family: $font-secondary;
+  font-weight: 400;
   color: $text-dark;
 }
 
@@ -41,6 +41,7 @@ $type-levels: 6,5,4,3,2,1;
   h#{$level},
   .h#{$level} {
     font-size: $font-size;
+    font-family: $font-secondary;
     line-height: calc(10px + 2ex + 2px);
     margin-bottom: 0.65em;
 

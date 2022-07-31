@@ -1,4 +1,6 @@
 ---
-title: "Homepage Grid"
+title: "Home"
 post_layout: "grid"
 ---
+
+# Welcome To Improving-Ottawa

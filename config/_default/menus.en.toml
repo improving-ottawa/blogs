@@ -3,73 +3,98 @@
 # main menu
 [[main]]
 weight = 1
-url = "/"
+url = "homepage/grid/"
 name = "Home"
-hasChildren = true
+hasChildren = false
 
-  [[main]]
-  parent = "Home"
-  weight = 1
-  url = "homepage/list/"
-  name = "List layout"
-
-  [[main]]
-  parent = "Home"
-  weight = 2
-  url = "homepage/grid/"
-  name = "Grid layout"
-  
 [[main]]
-weight = 3
+weight = 2
 url = "about/"
 name = "About"
   
 [[main]]
+weight = 3
+url = "author/"
+name = "Authors"
+hasChildren = true
+
+  [[main]]
+  parent = "Authors"
+  weight = 1
+  url = "author/"
+  name = "All"
+
+  [[main]]
+  parent = "Authors"
+  weight = 2
+  url = "author/jonny"
+  name = "Jonny Catlett"
+
+  [[main]]
+  parent = "Authors"
+  weight = 3
+  url = "author/reid"
+  name = "Reid Spencer"
+
+[[main]]
 weight = 4
-url = "contact/"
-name = "Contact"
+url = "#"
+name = "Blogs"
+hasChildren = true
+
+  [[main]]
+  parent = "Blogs"
+  weight = 2
+  url = "reid/"
+  name = "Reid Spencer"
+
+  [[main]]
+  parent = "Blogs"
+  weight = 1
+  url = "jonny/"
+  name = "Jonny Catlett"
 
 [[main]]
 weight = 5
 url = "#"
-name = "Pages"
+name = "Tags"
 hasChildren = true
 
   [[main]]
-  parent = "Pages"
-  weight = 1
-  url = "author/"
-  name = "Author"
-  
-  [[main]]
-  parent = "Pages"
+  parent = "Tags"
   weight = 2
   url = "tags/"
-  name = "Tags"
+  name = "All Tags"
   
   [[main]]
-  parent = "Pages"
+  parent = "Tags"
   weight = 3
   url = "tags/photography/"
-  name = "Tag Single"
-  
+  name = "Photography"
+
+[[main]]
+weight = 6
+url = "$"
+name = "Categories"
+hasChildren = true
+
   [[main]]
-  parent = "Pages"
-  weight = 4
+  parent = "Categories"
+  weight = 1
   url = "categories/"
-  name = "Category"
-  
+  name = "All"
+
   [[main]]
-  parent = "Pages"
-  weight = 5
-  url = "categories/lifestyle/"
-  name = "Category Single"
-  
-  [[main]]
-  parent = "Pages"
-  weight = 6
-  url = "elements/"
-  name = "Elements"
+  parent = "Categories"
+  weight = 2
+  url = "categories/photography/"
+  name = "Photography"
+
+[[main]]
+weight = 7
+url = "contact/"
+name = "Contact"
+
 
 ############################# Footer Menu ########################
 [[footer]]
@@ -79,7 +104,7 @@ name = "About"
 
 [[footer]]
 weight = 2
-url = "author/"
+url = "authors/"
 name = "Authors"
 
 [[footer]]

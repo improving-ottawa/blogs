@@ -5,18 +5,18 @@ favicon = "images/favicon.png"
 logo = "images/logo.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "208px"
+logo_width = "668px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
-logo_webp = true
+logo_webp = false
 # logo text will only show when logo is missing.
 logo_text = "Improving Ottawa"
 
 # Menu align
 menu_align = "center" # Menu-align value "left", "right" or "center" (if Search is disable/false Menu will align in Right)
 # Main section
-mainSections = ["blog"]
+mainSections = ["author", "blog", "jonny", "reid"]
 # Post layout
-post_layout = "list" # Post-Layout value ("grid" or "list")
+post_layout = "grid" # Post-Layout value ("grid" or "list")
 # Blog-details page sidebar
 sidebar = "right" # Sidebar value ("left", "right" or false)
 
@@ -26,7 +26,7 @@ search = true # (if Search is disable/false Menu will align in Right)
 image_gallery = true
 # copyright
 theme_copyright = true
-copyright = "&copy; Copyright by Improving"
+copyright = "&copy; 2022 Improving Ottawa Inc. All rights reserved."
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
@@ -113,7 +113,7 @@ facebook = "" # Your verification code
 
 # google map
 [google_map]
-enable = true
+enable = false
 map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -121,7 +121,7 @@ map_marker = "images/marker.png"
 
 # cookies
 [cookies]
-enable = false
+enable = true
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
@@ -133,21 +133,16 @@ sidebar = ["search", "categories", "tags", "social"]
 
 ############################# social site ########################
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+title = "github"
+icon = "fa-brand fa-github"  # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://github.com/improving-ottawa"
 
 [[social]]
 title = "twitter"
-icon = "fab fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "fa-brand fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/yoppworks"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "fa-brand fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://linkedin.com/company/yoppworks"

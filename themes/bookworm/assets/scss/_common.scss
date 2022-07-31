@@ -1,6 +1,6 @@
 body {
-  color: $gray;
-  background-color: $white;
+  color: $color-primary;
+  background-color: $body-bg;
   font-family: $font-primary;
   font-weight: 500;
   font-size: 16px;
@@ -29,12 +29,12 @@ button:focus {
 	outline: 0;
 }
 a {
-  color: $gray;
+  color: $color-secondary;
   transition: all .3s;
   text-decoration: none;
   &:hover {
     text-decoration: none;
-    color: $color-primary;
+    color: $color-highlight;
   }
 }
 ul, li {
@@ -226,7 +226,7 @@ a.post-title:hover,
     }
 
     a {
-      color: $gray;
+      color: $color-secondary;
 
       &::before {
         content: "#";
@@ -278,24 +278,21 @@ a.post-title:hover,
   font-size: 17px;
 
   p {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   img {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     @extend .rounded;
   }
 
+  h1,
   h2,
   h3,
   h4 {
-    color: $dark;
+    color: $color-secondary;
     margin-bottom: 20px;
     font-weight: 700;
-  }
-
-  h3 {
-    margin-top: 40px;
   }
 
   ol,
@@ -304,7 +301,7 @@ a.post-title:hover,
     padding-left: 0;
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
   }
 
@@ -315,8 +312,8 @@ a.post-title:hover,
 
   blockquote {
     padding: 20px 30px;
-    border-left: 6px solid $color-primary;
-    color: $dark;
+    border-left: 6px solid $color-highlight;
+    color: $color-primary;
     font-weight: 700;
     font-size: 22px;
     margin: 30px 0;
@@ -343,7 +340,7 @@ a.post-title:hover,
   h5,
   h6 {
     font-weight: 700;
-    color: $dark;
+    color: $color-secondary;
   }
 
   strong {
@@ -351,11 +348,11 @@ a.post-title:hover,
   }
 
   a {
-    color: $gray;
+    color: $color-secondary;
     border-bottom: 1px dotted $color-primary;
 
     &:hover {
-      color: $color-primary;
+      color: $color-highlight;
     }
   }
   a.collapse-head {
@@ -395,7 +392,7 @@ a.post-title:hover,
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid $border-color;
   }
 
   table td,
@@ -403,11 +400,11 @@ a.post-title:hover,
     padding: .75rem;
     vertical-align: top;
     margin-bottom: 0;
-    border: 1px solid #e0e0e0;
+    border: 1px solid $border-color;
   }
 
   tr:not(:last-child) {
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid $border-color;
   }
 
   th {
@@ -419,7 +416,7 @@ a.post-title:hover,
     margin-bottom: 0;
 
     tr {
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid $border-color;
     }
   }
 
@@ -563,7 +560,7 @@ a.post-title:hover,
     &:hover {
       box-shadow: none;
       color: $white;
-      background-color: $color-primary;
+      background-color: $color-secondary;
     }
 
     &.arrow {
@@ -717,7 +714,7 @@ a.text-primary:hover {
 }
 
 .text-dark {
-  color: $dark
+  color: $text-dark
 }
 
 a.text-dark:hover {

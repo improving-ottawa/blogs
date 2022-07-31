@@ -1,6 +1,6 @@
 // start header style
 .header-height-fix {
-  height: 109px;
+  height: 89px;
   @include tablet {
     height: 60px;
   }
@@ -12,7 +12,7 @@ header {
   left: 0;
   z-index: 1000;
   background-color: $white;
-  padding: 50px 0 20px;
+  padding: 2px 0 2px;
   transition: .25s ease;
 
   @include tablet {
@@ -34,7 +34,7 @@ header {
 
   .nav-item {
     &.active .nav-link {
-      color: $color-primary !important;
+      color: $color-secondary !important;
     }
 
     &.dropdown .nav-link {
@@ -72,11 +72,11 @@ header {
 
     .nav-link {
       font-size: 18px;
-      color: $dark !important;
+      color: $color-primary !important;
       padding: 15px !important;
 
       &:hover {
-        color: $color-primary !important;
+        color: $color-secondary !important;
       }
     }
   }
@@ -99,7 +99,7 @@ header {
       box-shadow: 0 10px 30px rgba(22, 28, 45, .10);
       transform: translate(-50%, -6px);
     }
-    
+
     .dropdown-menu[data-bs-popper] {
       top: 100%;
       left: 50%;
@@ -135,7 +135,7 @@ header {
     border-color: transparent;
     padding: 0;
     font-size: 38px;
-    color: $dark;
+    color: $color-primary;
     transition: .3s ease;
     &:focus {
       box-shadow: none;

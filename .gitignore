@@ -1,3 +1,5 @@
 /.idea/**
 /resources/**
+/public/**
 /nada/**
+.hugo_build.lock

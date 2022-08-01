@@ -16,37 +16,11 @@ name = "About"
 weight = 3
 url = "author/"
 name = "Authors"
-hasChildren = true
-
-  [[main]]
-  parent = "Authors"
-  weight = 1
-  url = "author/jonny"
-  name = "Jonny Catlett"
-
-  [[main]]
-  parent = "Authors"
-  weight = 2
-  url = "author/reid"
-  name = "Reid Spencer"
 
 [[main]]
 weight = 4
 url = "blog/"
 name = "Blogs"
-hasChildren = true
-
-  [[main]]
-  parent = "Blogs"
-  weight = 1
-  url = "blog/jonny"
-  name = "Jonny Catlett"
-
-  [[main]]
-  parent = "Blogs"
-  weight = 2
-  url = "blog/reid"
-  name = "Reid Spencer"
 
 [[main]]
 weight = 5

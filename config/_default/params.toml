@@ -5,7 +5,8 @@ favicon = "images/favicon.png"
 logo = "images/logo.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "668px"
+logo_width = "334px"
+logo_height = "123px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = false
 # logo text will only show when logo is missing.
@@ -134,15 +135,15 @@ sidebar = ["search", "categories", "tags", "social"]
 ############################# social site ########################
 [[social]]
 title = "github"
-icon = "fa-brand fa-github"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://github.com/improving-ottawa"
+icon = "fab fa-github"  # fontawesome icon pack : https://fontawesome.com/icons/
+url = "https://github.com/improving-ottawa"
 
 [[social]]
 title = "twitter"
-icon = "fa-brand fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://twitter.com/yoppworks"
+icon = "fab fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
+url = "https://twitter.com/yoppworks"
 
 [[social]]
 title = "linkedin"
-icon = "fa-brand fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://linkedin.com/company/yoppworks"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+url = "https://linkedin.com/company/yoppworks"

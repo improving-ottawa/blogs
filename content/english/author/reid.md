@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "About Reid Spencer"
-description: "Reid Spencer's Blog Postings"
+description: "Reid Spencer's Bio"
 image: "images/authors/reid.jpg"
 email: "reid.spencer@improving.com"
 date: 2022-07-27T10:20:19-04:00

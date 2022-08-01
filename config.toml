@@ -3,4 +3,4 @@ languageCode = 'en-us'
 title = 'Yoppworks Blog Site'
 
 [params]
-mainSections = ['homepage', 'about', 'reid']
+mainSections = ['homepage', 'about', 'reid', 'jonny']

@@ -42,11 +42,11 @@
               </li>
               <li class="list-inline-item">|</li>
               <li class="list-inline-item">
-                <span>{{.PublishDate.Format "02 January 2006"}}</span>
+                <span>{{.PublishDate.Format "2006 Jan 02"}}</span>
               </li>
             </ul>
           </div>
-          
+
           {{with .Params.images}}
           <div class="mb-5 {{ if $has_sidebar }}{{ else }}text-center{{ end }}">
             <div class="post-slider rounded">
@@ -60,7 +60,7 @@
           <div class="content">
             {{.Content}}
           </div>
-          
+
           <div class="single-post-meta">
             <div class="row justify-content-center">
               <div class="col-md-6 text-center text-md-start">
@@ -75,7 +75,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="single-post-author">
             <div class="row text-center text-sm-start">
               <div class="col-md-2">

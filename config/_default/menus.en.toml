@@ -21,74 +21,42 @@ hasChildren = true
   [[main]]
   parent = "Authors"
   weight = 1
-  url = "author/"
-  name = "All"
-
-  [[main]]
-  parent = "Authors"
-  weight = 2
   url = "author/jonny"
   name = "Jonny Catlett"
 
   [[main]]
   parent = "Authors"
-  weight = 3
+  weight = 2
   url = "author/reid"
   name = "Reid Spencer"
 
 [[main]]
 weight = 4
-url = "#"
+url = "blog/"
 name = "Blogs"
 hasChildren = true
 
   [[main]]
   parent = "Blogs"
-  weight = 2
-  url = "reid/"
-  name = "Reid Spencer"
+  weight = 1
+  url = "blog/jonny"
+  name = "Jonny Catlett"
 
   [[main]]
   parent = "Blogs"
-  weight = 1
-  url = "jonny/"
-  name = "Jonny Catlett"
+  weight = 2
+  url = "blog/reid"
+  name = "Reid Spencer"
 
 [[main]]
 weight = 5
-url = "#"
+url = "tags/"
 name = "Tags"
-hasChildren = true
-
-  [[main]]
-  parent = "Tags"
-  weight = 2
-  url = "tags/"
-  name = "All Tags"
-  
-  [[main]]
-  parent = "Tags"
-  weight = 3
-  url = "tags/photography/"
-  name = "Photography"
 
 [[main]]
 weight = 6
-url = "$"
+url = "categories/"
 name = "Categories"
-hasChildren = true
-
-  [[main]]
-  parent = "Categories"
-  weight = 1
-  url = "categories/"
-  name = "All"
-
-  [[main]]
-  parent = "Categories"
-  weight = 2
-  url = "categories/photography/"
-  name = "Photography"
 
 [[main]]
 weight = 7
@@ -104,7 +72,7 @@ name = "About"
 
 [[footer]]
 weight = 2
-url = "authors/"
+url = "author/"
 name = "Authors"
 
 [[footer]]

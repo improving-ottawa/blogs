@@ -11,6 +11,9 @@ and maintain their own blog pages using Hugo.
 * [Read up on how hugo works](https://gohugo.io/documentation/)
 * [Read up on how this `bookworm` template works](https://docs.gethugothemes.com/bookworm/languages/)
 
+## Why Write A Blog?
+* This is an EIP activity. 1 post = 1 point. 
+
 ## Adding Yourself As A New Author
 * Place your Yoppworks image of yourself in `/assets/images/authors/<name>.jpg`
 * Create a new author profile file using your first name as `/content/author/{first-name}.md` and follow a similar style to other authors in that directory.
@@ -33,12 +36,12 @@ and maintain their own blog pages using Hugo.
   * set `categories: ["Cat1", "Cat2"]` to indicate categories for your page so it can be found more easily. Replace "Cat1" and "Cat2" with actual category names. Categories should be shared between authors and agreed upon.
     
 ## About What You Post
+* DO NOT CHANGE A SINGLE THING OUTSIDE THE `content` DIRECTORY! DRAGONS BE THERE.
 * Blogs can be about anything about technology, your work, your life, processes, the industry, etc. Unlike the corporate site, there are no restrictions except what is noted below. 
 * This is a publicly available resource. We expect professionalism in the content.
 * Posting anything that reflects badly on Improving or Yoppworks is not welcome. Talk to your manager or the SMT instead.
 * Posting hate speech, adult material, bad language, controversial topics, conspiracy theories, or things like that could get your blog deleted, and your privilege to post removed.
 * This is a contributor driven shared system. Don't mess with others' content. Act responsibly. 
-* DO NOT CHANGE A SINGLE THING OUTSIDE THE `content` DIRECTORY! DRAGONS BE THERE.
 
 ## Getting a Preview While Editing
 * Run `hugo server -D --noHTTPCache ` with your current directory at the

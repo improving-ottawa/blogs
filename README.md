@@ -34,7 +34,8 @@ and maintain their own blog pages using Hugo.
   * set `date: {date}` to a publishing date for this page. Don't change it thereafter.
   * set `tags: ["Tag1", "Tag2"]` to indicate tags for your page so it can be found more easily. Replace "Tag1" and "Tag2" with actual tags. Tags can be any relevant phrase.
   * set `categories: ["Cat1", "Cat2"]` to indicate categories for your page so it can be found more easily. Replace "Cat1" and "Cat2" with actual category names. Categories should be shared between authors and agreed upon.
-    
+* See the `contents/english/elements.md` file for examples of the kinds of things you can do in markdown and Hugo shortcodes.  
+   
 ## About What You Post
 * DO NOT CHANGE A SINGLE THING OUTSIDE THE `content` DIRECTORY! DRAGONS BE THERE.
 * Blogs can be about anything about technology, your work, your life, processes, the industry, etc. Unlike the corporate site, there are no restrictions except what is noted below. 

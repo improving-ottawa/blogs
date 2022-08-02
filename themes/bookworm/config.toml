@@ -74,3 +74,6 @@ link = "plugins/webfont/webfont-loader-2.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/instagram-feed/instagram-feed.js"
+[[params.plugins.js]]
+link = "https://cpwebassets.codepen.io/assets/embed/ei.js"
+attributes = "async"

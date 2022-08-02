@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-#### Heading example
+## Heading Examples
 
 Here is example of headings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
@@ -18,7 +18,7 @@ Here is example of headings. You can use this heading by following markdownify r
 
 <hr>
 
-##### Emphasis
+## Emphasis
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -30,7 +30,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 <hr>
 
-##### Link
+## Link
 [An inline-style link](https://www.google.com)
 
 [An inline-style link with title](https://www.google.com "Google's Homepage")
@@ -55,13 +55,13 @@ Some text to show that the reference links can follow later.
 
 <hr>
 
-##### Paragraph
+## Paragraph
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
 
 <hr>
 
-##### Ordered List
+## Ordered List
 
 1. List item
 2. List item
@@ -71,7 +71,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
-##### Unordered List
+## Unordered List
 
 * List item
 * List item
@@ -81,7 +81,44 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
-#### Notice
+## Inline HTML
+
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+
+<hr>
+
+## Tables
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+<hr>
+
+## Notice
 
 {{< notice "note" >}}
   This is a simple note.
@@ -95,7 +132,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
   This is a simple info.
 {{< /notice >}}
 
-#### Tab
+<hr>
+
+## Tab
 
 {{< tabs >}}
 
@@ -115,7 +154,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
-### Collapse
+## Collapse
 
 {{< collapse "collapse 1" >}}
   This is a simple collapse
@@ -131,7 +170,17 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
-##### Code and Syntax Highlighting
+## Panel
+
+<hr>
+
+{{< panel header="##### panel header" footer="##### panel footer" >}}
+This is the panel content
+{{< /panel >}}
+
+<hr>
+
+## Code and Syntax Highlighting
 
 Inline `code` has `back-ticks around` it.
 
@@ -147,64 +196,48 @@ print s
 
 <hr>
 
+## Code In A File
+
+If you have code in a file you can use the `code` shortcode to do 
+similarly as above but with the content from a file.
+
+{{< code file=data/examples/main.scala language=scala >}}
+
+<hr>
 ##### Blockquote
 
 > This is a blockquote example.
 
 <hr>
 
-##### Inline HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+## Instagram 
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+If you want to display your Instagram photos, you can use the 
+`instagram` shortcode. You only need the photo’s ID. You can find the 
+ID in the URL of the photo. For example, if the URL of the photo is
+`https://www.instagram.com/p/BQD9zQQFQZ/` then the ID is `BQD9zQQFQZ`.
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+Like this:
 
+{{< instagram BQD9zQQFQZ >}}
 
-<hr>
+## Image
 
-##### Tables
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-
-<hr>
-
-##### Image
 {{< image src="images/post/02.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid w-100" title="image title"  webp="false" >}}
 
 <hr>
 
-### Gallery
+## Gallery
 {{< gallery dir="images/post" class="" height="400" width="400" webp="true" command="Fit" options="" zoomable="true" >}}
 
 <hr>
 
-### Youtube video
+## Youtube video
 
 {{< youtube ResipmZmpDU >}}
 
 <hr>
 
-### Custom video
+## Custom video
 {{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="500" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="" >}}

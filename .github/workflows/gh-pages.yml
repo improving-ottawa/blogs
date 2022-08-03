@@ -12,6 +12,7 @@ on:
       - static/**
       - config.toml
       - netlify.toml
+      - .github/workflows/**
 
 jobs:
   deploy:

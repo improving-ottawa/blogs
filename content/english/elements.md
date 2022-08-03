@@ -211,17 +211,6 @@ similarly as above but with the content from a file.
 <hr>
 
 
-## Instagram 
-
-If you want to display your Instagram photos, you can use the 
-`instagram` shortcode. You only need the photo’s ID. You can find the 
-ID in the URL of the photo. For example, if the URL of the photo is
-`https://www.instagram.com/p/BQD9zQQFQZ/` then the ID is `BQD9zQQFQZ`.
-
-Like this:
-
-{{< instagram BQD9zQQFQZ >}}
-
 ## Image
 
 {{< image src="images/post/02.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid w-100" title="image title"  webp="false" >}}

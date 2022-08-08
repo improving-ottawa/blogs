@@ -16,16 +16,19 @@ and maintain their own blog pages using Hugo.
 
 ## Adding Yourself As A New Author
 * Place your Yoppworks image of yourself in `/assets/images/authors/<name>.jpg`
-* Create a new author profile file using your first name as `/content/author/{first-name}.md` and follow a similar style to other authors in that directory.
-* Write a bio in your `/content/author/{first-name}.md` file. Adjust the front matter to suit yourself.
-* Create a new content directory using your first name as `/content/english/{first-name}`, or if you plan to write in French, create that directory as `/content/french/{first-name}` instead.
+* This blog supports both English and French blogs. In the following instructions, replace {language} 
+  with either "english" or "french". If  you want to go bilingual then do all the remaining instructions
+  for both the Englisha and French cases.
+* Create a new author profile file using your first name as `/content/author/{language}/{first-name}.md` and follow a similar style to other authors in that directory.
+* Write a bio in your `/content/{language}/author/{first-name}.md` file. Adjust the front matter to suit yourself.
+* Create a new content directory using your first name as `/content/{language}/{first-name}`. 
 * Add the name of the content directory you just created to `/config.toml` in the `mainSections` parameter (or it won't get indexed)
 * Add an `_index.md` file in the directory you just created that is similar to another authors' but with your information in it. 
 * Start writing your blogs!
  
 ## How To Write Your Blogs
 * Blogs are markdown files in your content/{language}/{name} directory.
-* Your blogs will belisted in a grid when `blog/{name}` is accessed
+* Your blogs will be listed in a grid when the "Blogs" menu is selected.  
 * Add whatever you want. They will be indexed automatically. Use a `unique-slug-style-naming-convention` that provides the title of your blog or something catchy
 * In the front matter:
   * set `draft: true` until you want it published. It will show up in preview mode (see below) because of the `-D` option but not on the published site.

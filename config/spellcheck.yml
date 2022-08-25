@@ -12,8 +12,8 @@ matrix:
             - code
             - pre
     sources:
-      - 'content/*.md'
-      - 'content/**.md'
-      - 'content/**.html'
+      - 'content/english/*.md'
+      - 'content/english/**/*.md'
+      - 'content/english/**/*.html'
       - README.md
     default_encoding: utf-8

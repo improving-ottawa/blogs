@@ -1,5 +1,9 @@
 name: Spellcheck
 on:
+  push:
+    paths:
+      - '.github/workflows/spellcheck.yml'
+      - 'config/spellcheck.yml'
   pull_request:
   workflow_dispatch:
 

@@ -4,7 +4,7 @@ description: "meta description"
 images:
   - "images/post/05.jpg"
 date: 2021-01-25T16:56:47+06:00
-draft: false
+draft: true
 author: "Henara Colii"
 tags: ["Food", "Gold"]
 categories: ["Food"]

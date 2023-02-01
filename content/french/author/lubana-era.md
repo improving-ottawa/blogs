@@ -3,7 +3,7 @@ title: "Lubana Era"
 image: "images/author/author.jpg"
 email: "sojonatmail@gmail.com"
 date: 2021-01-26T10:14:19+06:00
-draft: false
+draft: true
 social:
 - icon: "fab fa-facebook-f" # https://fontawesome.com/
   link: "https://facebook.com"
